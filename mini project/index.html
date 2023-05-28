@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🍙M.A Dental Clinic🍙</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    
+</head>
+
+<body>
+  <!-- Header -->
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="index.html"><img src="pictures/logo-removebg-preview.png" alt="logo" width="60cm"
+          height="40cm">M.A Dental Clinic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="About Us.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Doctors
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul> -->
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Appoinment Form.html">Appointment</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+        <div class="mx-2">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Membership">
+            Get a Membership
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- The Modal -->
+<div class="modal" id="Membership">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Membership Form</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <!-- Modal body -->
+      <div class="modal-body bg-success bg-opacity-25">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email here">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div><div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm password">
+            <div id="emailHelp" class="form-text">Please Confirm your Password</div> 
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pictures/dentist-4373290_960_720.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Welcome to M.A Dental Clinic</h3>
+          <p>Your Teeth Our Responsibility</p>
+          <button type="button" class="btn btn-primary">Doctors</button>
+          <button type="button" class="btn btn-success">Staff</button>
+          <button type="button" class="btn btn-danger">For Complaints</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/Carousel 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pictures/Carousel 3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+  <!-- Cards -->
+  <!-- <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Our Services</h2> -->
+  <div class="container text-center my-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 p-4 bg-success text-dark bg-opacity-75" style="width: 17.5rem;">
+        <img src="pictures/Dr. Mohammad Altamash.jpg" class="card-img-top mb-3"height="300px"  alt="...">
+        <h2 class="fw-underline">Dr. Mohammad Altamash</h2>
+        <p>Doctorate in Dental Medicine, Dr. med. dent., University of Munich,Ph.D.program in affiliation with the Karolinska Institute Medical University, Stockholm, Sweden.</p>
+        <p><a class="btn btn-primary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 col-md-6 col-sm- p-4 bg-success text-dark bg-opacity-50" style="width: 17.5rem;">
+        <img src="pictures/card2.jpg" class="card-img-top mb-3" height="300px"  alt="...">
+        <h2 class="fw-underline">Dr. Saira Lone - Dentist</h2>
+        <p>Masters in Endodontics, University of Manchester, United Kingdom Assistant Professor,Altamash Institute of Dental Medicine National and International Affiliations.</p>
+        <p><a class="btn btn-primary" href="#">View details »</a></p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-4 bg-success text-dark bg-opacity-75" style="width: 17.5rem;">
+        <img src="pictures/Dr. Sara Altamash.jpg" class="card-img-top mb-3" height="300px"  alt="...">
+        <h2 class="fw-underline">Dr. Sara Altamash</h2>
+        <p>Doctor of Dental Medicine, USA Masters in Orthodontics,USA Diplomat to the American Board of Orthodontics Board Certified with American Board of Orthodontics</p>
+        <p><a class="btn btn-primary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 p-4 bg-success text-dark bg-opacity-50" style="width: 17.5rem;">
+        <img src="pictures/doctor 4.jpg" class="card-img-top mb-3" height="300px"  alt="...">
+        <h2 class="fw-underline">Dr.Rana Saud Iqbal</h2>
+        <p>USA Diplomat to the American Board of Orthodontics Board Certified Board of orthodontics Affiliations.University of MunichMunich,Advance Training in Periodontology</p>
+        <p><a class="btn btn-primary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+  </div>
+   <!-- happy you -->
+   <div class="container row featurette my-4 mx-auto">
+    <div class="col-md-6 col-sm-12 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">We Care<span class="text-muted">About your Teeth</span></h2>
+      <p class="lead">Some great placeholder content for the first featurette here.
+        Tempore quis voluptatem enim voluptates similique quibusdam earum,
+        sit incidunt assumenda odit consequuntur voluptatum molestiae sint recusandae, dicta ullam quae cum inventore</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img src="pictures/care teeth.jpg" height="270" alt="">
+    </div>
+  </div>
+    <!-- Our Awards -->
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Our Awards</h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="pictures/award 2.PNG" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="pictures/award5.PNG" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="pictures/award3.PNG" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="pictures/award4.PNG" alt="">
+        </div>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+  <!-- facilities -->
+  <div class="container text-center  my-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 p-4 bg-success text-dark bg-opacity-75">
+        <img src="pictures/dentist.png" class="mb-3" height="70cm" width="80cm" alt="">
+        <h4>Quaified Doctors</h4>
+       <p>Column Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo ea,
+        alias aliquam error saepe fuga consectetur praesentium voluptates magni!</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 p-4 bg-success  text-dark bg-opacity-50">
+        <img src="pictures/emergency care.png" class="mb-3" height="80cm" width="80cm" alt="">
+        <h4>Emergency care</h4>
+        <p>Column Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo ea,
+          alias aliquam error saepe fuga consectetur praesentium voluptates magni!</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 p-4 bg-success text-dark bg-opacity-75">
+        <img src="pictures/outdoor checkup.png" class="mb-3" height="70cm" width="80cm" alt="">
+        <h4>Outdoor Checkup</h4>
+       <p>Column Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo ea,
+        alias aliquam error saepe fuga consectetur praesentium voluptates magni!</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 p-4 bg-success  text-dark bg-opacity-50">
+        <img src="pictures/24 hours.png" class="mb-3" height="70cm" width="80cm" alt="">
+        <h4>24 Hours Service</h4>
+        <p>Column Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo ea,
+          alias aliquam error saepe fuga consectetur praesentium voluptates magni!</p>
+      </div>
+    </div>
+  </div>
+   <!-- Features -->
+   <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Our Services</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <img src="pictures/icon1.PNG" alt="icon">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">General Dentistry</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="pictures/icon2.PNG" alt="icon">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Whitening</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="pictures/icon3.PNG" alt="icon">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Implants</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="pictures/icon4.PNG" alt="icon">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Alignment</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="pictures/icon5.PNG" alt="">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Prothesis</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="pictures/icon6.PNG" alt="">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Teeth Protection</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="pictures/icon7.PNG" alt="">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Teeht Braces</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="pictures/icon8.PNG" alt="">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4">Dental Surgery</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!-- Oppoinment Form -->
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom">Dentist Oppoinment Form</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="mb-3 mb-30">
+        <input placeholder="Enter Name" type="text" name="form_name" class="form-control required">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="mb-3 mb-30">
+        <input placeholder="Email" type="text" name="form_email" class="form-control required">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="mb-3 mb-30">
+        <input placeholder="Phone" type="text" name="form_phone" class="form-control required">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <select name="form_service" class="form-select required">
+        <option value=""> --- Choose Service --- </option>
+        <option value="Service 1">Service 1</option>
+        <option value="Service 2">Service 2</option>
+        <option value="Service 3">Service 3</option>
+        <option value="Service 4">Service 4</option>
+      </select>
+    </div>
+    <div class="col-sm-6">
+      <div class="mb-3 mb-30">
+        <input name="form_date" class="form-control required date-picker" type="text" placeholder="Date">
+        <h5>Days of the week you are available for appointment:</h5>
+      <p><span class="wpcf7-form-control-wrap checkbox-465"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Monday">&nbsp;<span class="wpcf7-list-item-label">Monday</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Tuesday">&nbsp;<span class="wpcf7-list-item-label">Tuesday</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Wednesday">&nbsp;<span class="wpcf7-list-item-label">Wednesday</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Thursday">&nbsp;<span class="wpcf7-list-item-label">Thursday</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Friday">&nbsp;<span class="wpcf7-list-item-label">Friday</span></label></span></span></span></p>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="mb-3 mb-30">
+        <input name="form_time" class="form-control required time-picker ui-timepicker-input" type="text" placeholder="Time" autocomplete="off">
+      <h5>Best time of day for your appointment:</h5>
+      <p><span class="wpcf7-form-control-wrap checkbox-246"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Morning">&nbsp;<span class="wpcf7-list-item-label">Morning</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Afternoon">&nbsp;<span class="wpcf7-list-item-label">Afternoon</span></label></span></span></span></p>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="mb-3">
+        <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="mb-3 mb-0 mt-0">
+        <input name="form_botcheck" class="form-control" type="hidden" value="">
+        <button type="submit" class="btn btn-primary btn-round" data-loading-text="Please wait...">Request My Oppoinment</button>
+      </div>
+    </div>
+  </div>
+  </div> 
+    <!-- Timings -->
+    <div class="row featurette mx-auto">
+      <div class="col-md-6 col-sm-12">
+        <div class="text">
+          <h1 class="Heading">Timings</h1>
+          <h3 class="title">Monday - Friday</h3>
+          <h4 class="time">8am - 6pm</h4>
+        </div>
+        <div class="text">
+          <h3 class="title">Saturday</h3>
+          <h4 class="time">9am - 5pm</h4>
+        </div>
+        <div class="text">
+          <h3 class="title">Sunday</h3>
+          <h4 class="time">9am - 4pm</h4>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.139305480763!2d67.03085831432153!3d24.927323848714874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1663409185484!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+<!-- Footer -->
+<footer class="py-3 my-4 bg-dark bg-opacity-25">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+    <li class="nav-item"><a href="About Us.html" class="nav-link px-2 text-muted">About Us</a></li>
+    <li class="nav-item"><a href="Gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
+  </ul>
+    <div class="row">
+      <div class="top-sidebar top-bar-left col-md-8 mx-5">
+        <aside id="custom_html-2" class="widget_text widget widget_custom_html">
+          <div class="textwidget custom-html-widget">
+            <div class="topbar-container topbar-icon-list">
+              <ul class="icon-list-items inline-items">
+                <li class="icon-list-item inline-item">
+                  <span class="icon-list-icon">
+                    <i aria-hidden="true" class="fal fa-map-marker-alt"></i>
+                    <img src="pictures/icons8-globe-30.png" height="30cm" alt="">
+                  </span>
+                  <span class="icon-list-text">95 Brooklyn, New York 11213, US</span>
+                </li>
+                <li class="icon-list-item inline-item">
+                  <span class="icon-list-icon">
+                    <i aria-hidden="true" class="fal fa-comment-alt-lines">
+                    </i>
+                    <img src="pictures/icons8-mail.png" width="30cm" alt="">
+                  </span>
+                  <span class="icon-list-text">contact@trusmile.com</span>
+                </li><li class="icon-list-item inline-item">
+                  <span class="icon-list-icon">
+                    <i aria-hidden="true" class="fal fa-comment-alt-lines">
+                      <img src="pictures/icons8-phone-30.png" height="30cm" alt="">
+                    </i>
+                  </span>
+                  <span class="icon-list-text">009-545-9162</span>
+                  <br>
+                  <a href="index.html">M.A Dental Clinic.com</a>
+                </li>
+              </ul>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-white" href="#"><img src="pictures/facebook.png" alt="facebook"></a></li>
+                <li class="ms-3"><a class="link-light" href="#"><img src="pictures/whatsapp.png" alt="whatsapp"></a></li>
+                <li class="ms-3"><a class="link-success" href="#"><img src="pictures/instagram.png" alt="instagram"></a></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <p class="text-center text-muted">© 2022 Company, Inc. All rights reserved.</p>
+</footer>
+</div>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
